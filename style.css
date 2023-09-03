@@ -1,0 +1,24 @@
+body{
+ background-color:blue;
+}
+
+h3{
+    font-size:30px !important; 
+
+}
+.btn-primary:hover{
+    background-color: crimson;
+}
+
+canvas{
+    animation-name: cap;
+    animation-duration:3s;
+    animation-iteration-count: infinite;   
+}
+
+@keyframes cap{
+    from{box-shadow:1px 1px 38px blue}
+    to{box-shadow:1px 1px 38px purple}
+
+
+}
